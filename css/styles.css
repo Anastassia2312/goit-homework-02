@@ -1,5 +1,5 @@
 body {
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
 }
@@ -12,8 +12,20 @@ ul,
 ol {
   list-style-type: none;
 }
+h1,
+h2,
+h3 {
+  color: #2e2f42;
+}
+
 .logo-web {
   color: #4d5ae5;
+}
+.logo-studio-header {
+  color: #2e2f42;
+}
+.logo-studio-footer {
+  color: #f4f4fd;
 }
 .logo {
   text-transform: uppercase;
@@ -28,6 +40,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
+  color: #2e2f42;
 }
 .navigation-list a:active {
   color: #404bbf;
@@ -52,6 +65,7 @@ ol {
   letter-spacing: 2%;
   line-height: 1.07142857;
   color: #ffffff;
+  text-align: center;
 }
 .hero-button {
   cursor: pointer;
@@ -67,4 +81,78 @@ ol {
   line-height: 1.5;
   letter-spacing: 4%;
   color: #ffffff;
+}
+.benefits-main-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 2%;
+  line-height: 1.1;
+  text-align: center;
+}
+.benefits-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+  line-height: 1.2;
+}
+
+.benefits-text {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-main-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 2%;
+  line-height: 1.1;
+  text-align: center;
+}
+.team-member {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.team-member-text {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.portfolio-main-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 2%;
+  line-height: 1.1;
+  text-align: center;
+}
+.portfolio-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+  line-height: 1.2;
+}
+.portfolio-text {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #f4f4fd;
 }
