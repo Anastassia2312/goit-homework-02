@@ -52,7 +52,8 @@ h3 {
   font-style: normal;
 }
 .address .list-link:focus,
-.address .list-link:hover {
+.address .list-link:hover,
+.address .list-link:active {
   color: #404bbf;
 }
 .hero {
