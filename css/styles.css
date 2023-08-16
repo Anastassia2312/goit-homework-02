@@ -31,7 +31,7 @@ h3 {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
-.navigation-list a {
+.navigation-list .list-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -39,7 +39,8 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navigation-list a:active {
+.navigation-list .list-link:hover,
+.navigation-list .list-link:focus {
   color: #404bbf;
 }
 .address {
@@ -50,7 +51,8 @@ h3 {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.address a:active {
+.address .list-link:active,
+.address .list-link:hover {
   color: #404bbf;
 }
 .hero {
@@ -75,7 +77,8 @@ h3 {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 .benefits-main-title {
@@ -132,6 +135,9 @@ h3 {
   letter-spacing: 0.02.02em;
   line-height: 1.1;
   text-align: center;
+}
+.portfolio-item {
+  background-color: #ffffff;
 }
 .portfolio-title {
   font-family: 'Roboto', sans-serif;
