@@ -51,7 +51,7 @@ h3 {
   letter-spacing: 0.02em;
   font-style: normal;
 }
-.address .list-link:active,
+.address .list-link:focus,
 .address .list-link:hover {
   color: #404bbf;
 }
@@ -114,6 +114,9 @@ h3 {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+}
+.team-item {
+  background-color: #ffffff;
 }
 .team-member {
   font-family: 'Roboto', sans-serif;
