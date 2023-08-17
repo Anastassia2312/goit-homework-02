@@ -139,6 +139,7 @@ h3 {
   letter-spacing: 0.02.02em;
   line-height: 1.1;
   text-align: center;
+  text-transform: capitalize;
 }
 .portfolio-item {
   background-color: #ffffff;
